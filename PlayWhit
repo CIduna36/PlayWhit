@@ -1,20 +1,3 @@
-game-panel/
-├── backend/
-│   ├── src/
-│   ├── prisma/
-│   ├── Dockerfile
-│   └── docker-compose.yml
-├── frontend/
-│   ├── pages/
-│   ├── components/
-│   ├── styles/
-│   ├── Dockerfile
-│   └── .env.local.example
-├── .github/
-│   └── workflows/
-│       └── deploy.yml
-└── README.md
-
 generator client {
   provider = "prisma-client-js"
 }
